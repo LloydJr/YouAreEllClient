@@ -13,6 +13,7 @@ public class TransactionController {
 
     public List<Id> getIds() {
 
+        return null; /** "I ADDED THE RETURN STATEMENT"*/
     }
     public String postId(String idtoRegister, String githubName) {
         Id tid = new Id(idtoRegister, githubName);
